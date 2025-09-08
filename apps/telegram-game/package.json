@@ -1,0 +1,47 @@
+{
+  "name": "@chat-game/telegram-game",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "clean": "rm -rf dist",
+    "clean:modules": "rm -rf .nuxt .output node_modules",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@chat-game/game-addon": "workspace:*",
+    "@chat-game/locale": "workspace:*",
+    "@chat-game/types": "workspace:*",
+    "@neoconfetti/vue": "catalog:",
+    "@number-flow/vue": "catalog:",
+    "@telegram-apps/sdk-vue": "catalog:",
+    "@tsparticles/engine": "catalog:",
+    "@tsparticles/slim": "catalog:",
+    "@tsparticles/vue3": "catalog:",
+    "vue": "catalog:",
+    "vue-i18n": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "catalog:",
+    "@iconify/vue": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "@tsconfig/node22": "catalog:",
+    "@types/node": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vue/tsconfig": "catalog:",
+    "@vueuse/core": "catalog:",
+    "eruda": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "unplugin-auto-import": "catalog:",
+    "unplugin-icons": "catalog:",
+    "unplugin-vue-components": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-terminal": "catalog:",
+    "vite-plugin-vue-devtools": "catalog:",
+    "vue-tsc": "catalog:"
+  }
+}
