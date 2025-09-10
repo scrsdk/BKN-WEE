@@ -11,7 +11,7 @@ COPY ./apps/website ./apps/website
 
 RUN npm install --ignore-scripts -g pnpm && \
     pnpm i --frozen-lockfile && \
-    pnpm build --filter @chat-game/website
+    pnpm build --filter apps/website
 
 # Production image, copy all the files and run
 FROM base
